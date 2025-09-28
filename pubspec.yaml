@@ -1,0 +1,19 @@
+name: offline_mesh
+description: Offline peer-to-peer messenger using Bluetooth/Wi-Fi Direct.
+publish_to: "none"
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nearby_connections: ^4.1.1
+  provider: ^6.0.5
+  uuid: ^4.4.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
